@@ -1,0 +1,36 @@
+h1 {
+    margin: 15px;
+}
+
+.title {
+    border-width: 1px;
+    color: white;
+    font-size: 25px;
+}
+
+.flexcontainer{
+	margin-top: 20px;
+	display:flex;
+	height:600px;
+	width:100%;
+	justify-content: center;
+
+}
+
+body{
+	background-image: url("wallhaven-149559.jpg");
+	background-repeat: none;
+}
+
+a{
+  color: #cccc00;
+}
+
+.credits {
+  margin: auto;
+  background-color: #1a1a1a;
+  position: center;
+  width: 60%;
+  padding: 10px;
+  color: #bfbfbf;
+}

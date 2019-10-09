@@ -1,0 +1,11 @@
+/* for different type of cards css */
+/* for your card size */
+.card {
+    width: 60px;
+    padding: 5px;
+}
+
+/* for other players cards */
+.otherCard {
+    width: 40px;
+}

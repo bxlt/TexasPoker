@@ -1,0 +1,99 @@
+.texasGame {
+    width:800px;
+    padding: 10px 15px;
+    color: white;
+    position: relative;
+}
+
+.background {
+    background-color: #262626;
+}
+
+/* for boarderInfo */
+.boardInfo {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    position: absolute;
+    left: 45%;
+    top: 55%;
+    width:100px;
+}
+
+.port {
+    width:40px;
+    height:40px;
+    padding: 5px;
+}
+
+/* for error message */
+.errorMess {
+    font-size: 24px;
+    color: red;
+}
+
+/* for player card */
+.yourCard {
+    height: 120px;
+    padding: 10px;
+}
+
+/* for choice selector */
+.choiceSelector {
+    display: flex;
+    width:100%;
+    position: absolute;
+    justify-content: center;
+    bottom:0;
+    height:60px;
+
+}
+
+.Gamebutton {
+  background-color: #006622; /* Green */
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px;
+  cursor: pointer;
+  border-radius: 12px;
+  width:120px;
+}
+
+.textBar {
+  resize: none;
+  background-color: #006622; /* Green */
+  border: none;
+  color: black;
+  width: 100px;
+  font-size: 12px;
+  border-radius: 12px;
+  margin: 8px;
+}
+
+.backgroundImage {
+    background-color: black;
+    max-width: 100%;
+    height: auto;
+    background-position: center;
+    background-image: url("../images/table.jpg");
+    background-repeat: no-repeat;
+}
+
+.raise{
+  background-color: white; /* Green */
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px;
+  cursor: pointer;
+  border-radius: 12px;
+  width:120px;
+}

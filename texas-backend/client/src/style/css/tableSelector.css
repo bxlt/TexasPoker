@@ -1,0 +1,16 @@
+.tableSelector {
+    display: flex;
+
+    padding: 5px 10px;
+    flex-direction: column;
+}
+
+.room {
+    width: 190px;
+    line-height: 20px;
+    background-color: white;
+    padding: 4px;
+    /* border-bottom: 1px solid #efefef; */
+    color: #000;
+}
+

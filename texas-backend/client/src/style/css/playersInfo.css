@@ -1,0 +1,122 @@
+/* for players Info */
+.playersInfo {
+    padding: 0px;
+    margin: 0px auto;
+    position: relative;
+    height: 300px;
+    font-size: 15px;
+}
+
+.pBackground {
+    background: linear-gradient(#808080, black);
+    border-radius: 8px;
+
+    background-size: auto;
+    padding: 10px;
+}
+
+.ready {
+    z-index: 999;
+    float: right;
+    width: 20px;
+    height: 20px;
+    padding-left:10px;
+}
+
+.fold {
+    opacity: 0.4;
+}
+
+.allin {
+    color: red;
+}
+
+.user {
+    padding: 0px 5px 0px 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.turn {
+    padding-left: 15px;
+    z-index: 999;
+    float: right;
+    width: 20px;
+    height: 20px;
+}
+
+.playersInfo .ap {
+    position: absolute;
+    z-index: 998;
+}
+
+.playersInfo .p {
+    width: 350px;
+    left: 28%;
+    top: 65%;
+}
+
+.playersInfo .pp {
+    position: absolute;
+    z-index: 997;
+}
+
+.playersInfo .p0 {
+    left: 5%;
+    top: 80%;
+}
+
+.playersInfo .pp0 {
+    left: 7%;
+    top: 70%;
+}
+
+.playersInfo .p1 {
+    left: 30%;
+    top: 30%;
+}
+
+.playersInfo .pp1 {
+    left: 32%;
+    top: 20%;
+}
+
+.playersInfo .p2 {
+    left: 55%;
+    top: 30%;
+}
+
+.playersInfo .pp2 {
+    left: 57%;
+    top: 20%;
+}
+
+.playersInfo .p3 {
+    left: 80%;
+    top: 80%;
+}
+
+.playersInfo .pp3 {
+    left: 82%;
+    top: 70%;
+}
+
+.playersInfo .p4 {
+    left: 55%;
+    top: 120%;
+}
+
+.playersInfo .pp4 {
+    left: 57%;
+    top: 110%;
+}
+
+.playersInfo .p5 {
+    left: 30%;
+    top: 120%;
+}
+
+.playersInfo .pp5 {
+    left: 32%;
+    top: 110%;
+}
